@@ -137,6 +137,9 @@
                 </div>
             </div>
         </div>
+        <div >
+            <p class="text-center " style="margin-button: 95%;"> copyright@velaputri 2023 | g tau g kebaca  </p><!--  gak bisa ke atas an lagi -->
+        </div>
     </div>
     </div>
     </div>
