@@ -9,18 +9,18 @@
 </head>
 <style>
     body {
-       background-image: url(assets/img/bg.png) ;
-       background-repeat: no-repeat;
-       background-size: 100% ;
+        background-image: url(assets/img/bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 </style>
 
 <body>
 
-    <div class="container-fluid mt-4 ">
+    <div class="container-fluid" style="background-color: rgba(247, 235, 255, 0.633)";>
         <div class="row">
             <div class="col-10">
-                <image src="assets/img/Favel.png" class="d-inline-block  align-text-top " alt="" style="width: 100px; height: 35px; margin-left: 4%; ">
+                <image src="assets/img/Favel.png" class="d-inline-block  align-text-top mt-3" alt="" style="width: 100px; height: 35px; margin-left: 4%; ">
                     <div class="col-2 rounded mt-3 " style="border: 1px solid #000; margin-left: 4%; ">
                     </div>
                     <div style="margin-left: 4%;">
@@ -32,12 +32,12 @@
                     <div class="col-5">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link mx-3" aria-current="page" href="#"> SIGN UP</a>
+                                <a class="nav-link mx-3 mt-4" aria-current="page" href="#"> SIGN UP</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-7">
-                        <button type="button" class="btn btn-warning btn-lg">Warning</button>
+                        <button type="button" class="btn btn-warning btn-lg mt-4">Warning</button>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
             <div class="d-flex align-items-center" style="height: 85vh;">
                 <div class="card rounded-5" style="width: 36.75rem;">
                     <div class="card-body">
-                        <h1 class="card-title text-center mb-3">Welcome</h1>
+                        <h1 class="card-title text-center mb-3" style="color:rgb(76, 0, 134) ;">Welcome</h1>
                         <h4 class="card-title mb-2 text-center">Hey, Enter your details get sign in <br> to your account</h4>
                         <div class="d-flex justify-content-center">
                             <div class="col-10">
@@ -70,7 +70,7 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link mx-3" aria-current="page" href="#">
-                                        <h6 class="mt-2" style="margin-left: 7%;">heaving trouble in sign in?</h6>
+                                        <h6 class="mt-2" style="margin-left: 7%; color:rgb(76, 0, 134) ;">heaving trouble in sign in?</h6>
                                     </a>
                                 </li>
                             </ul>
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="text-center mt-5">-- Or Sign In With --</h6>
+                            <h6 class="text-center mt-5" style="color:rgb(76, 0, 134) ;">-- Or Sign In With --</h6>
                         </div>
                     </div>
                     <div class="d-flex justify-content-center">
@@ -92,18 +92,18 @@
                                 <div class="row">
                                     <button class="btn btn-outline-secondary" type="button" id="button-addon2">
                                         <div class="col-6" style="width: 80px;">
-                                            <svg  style=" margin-right: 95px; margin-top: 15px;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 488 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                            <svg style=" margin-right: 95px; margin-top: 15px;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 488 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                                 <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
                                             </svg>
                                         </div>
                                         <div class="col-6">
-                                            <h6 >Google</h6>
+                                            <h6>Google</h6>
                                         </div>
                                     </button>
                                 </div>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                                <button class="btn btn-outline-warning" type="button" id="button-addon2">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                         <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
                                     </svg>
@@ -123,24 +123,24 @@
                     <div class="row">
                         <div class="col-5">
                             <div class="row ">
-                                <p class="mt-3"style=" margin-left: 165px">Don't have an account? </p>
+                                <p class="mt-3" style=" margin-left: 165px">Don't have an account? </p>
                             </div>
                         </div>
                         <div class="col-7">
-                        <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" style="margin-left: 83px;" aria-current="page" href="#">
-                                            <h6 class="mt-2 mb-5">register now</h6>
-                                        </a>
-                                    </li>
-                                </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" style="margin-left: 83px;" aria-current="page" href="#">
+                                        <h6 class="mt-2 mb-5" style="color:rgb(76, 0, 134) ;">register now</h6>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div>
-            <p class="text-center" style="margin-bottom: 1%;"> copyright@velaputri 2023 | g tau g kebaca  </p><!--  gak bisa ke atas an lagi -->
+            <p class="text-center" style="margin-bottom: 1%;"> copyright@velaputri 2023 | g tau g kebaca </p><!--  gak bisa ke atas an lagi -->
         </div>
     </div>
     </div>
