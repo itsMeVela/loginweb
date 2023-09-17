@@ -9,7 +9,9 @@
 </head>
 <style>
     body {
-        background-color: rgb(232, 232, 232);
+       background-image: url(assets/img/bg.png) ;
+       background-repeat: no-repeat;
+       background-size: 100% ;
     }
 </style>
 
